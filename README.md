@@ -170,40 +170,40 @@ plt.show()
 
 ![DS F11](https://user-images.githubusercontent.com/121418437/232966957-b5e6a3c9-494e-4e1b-8c9a-d4790c837494.png)
 
-# Moderate Positive Skew
-
-![DS F13](https://user-images.githubusercontent.com/121418437/232966981-8534c9da-2041-4a6d-9ad0-81f855e82579.png)
+# Modera te Positive Skew
+![DS F12](https://user-images.githubusercontent.com/121418437/232968798-6c71d912-5366-4a44-bdb7-e0b18cf42945.png)
 
 # Moderate Negative Skew
 
-![DS F14](https://user-images.githubusercontent.com/121418437/232967024-e3a0be9b-6ab2-4f5d-932f-45eac4104d6a.png)
+![DS F13](https://user-images.githubusercontent.com/121418437/232966981-8534c9da-2041-4a6d-9ad0-81f855e82579.png)
 
 # Log Transformation
 # Highly Positive Skew
 
-![DS F15](https://user-images.githubusercontent.com/121418437/232967068-dc3b1643-bf03-42fb-a0b4-e3e59e9219d5.png)
+![DS F14](https://user-images.githubusercontent.com/121418437/232967024-e3a0be9b-6ab2-4f5d-932f-45eac4104d6a.png)
 
 # Moderate Positive Skew
 
-![DS F16](https://user-images.githubusercontent.com/121418437/232967081-74150951-e337-40b5-9b80-99fdc5a81e2d.png)
+![DS F15](https://user-images.githubusercontent.com/121418437/232967068-dc3b1643-bf03-42fb-a0b4-e3e59e9219d5.png)
 
 # Reciprocal Transformation
 # Highly Positive Skew
 
-![DS F17](https://user-images.githubusercontent.com/121418437/232967108-01384326-60d7-4e4f-a3a7-d73598ff40a4.png)
+![DS F16](https://user-images.githubusercontent.com/121418437/232967081-74150951-e337-40b5-9b80-99fdc5a81e2d.png)
 
 # Square Root Transformation
 # Highly Positive Skew
 
-![DS F19](https://user-images.githubusercontent.com/121418437/232967127-11483a6d-5f3c-43ec-8806-306dc7db8d67.png)
+![DS F17](https://user-images.githubusercontent.com/121418437/232967108-01384326-60d7-4e4f-a3a7-d73598ff40a4.png)
 
 # Power Transformation
 # Moderate Positive Skew
 
-![DS F20](https://user-images.githubusercontent.com/121418437/232967157-a6f81c66-2363-4bdc-9c64-4bc0008b055d.png)
+![DS F19](https://user-images.githubusercontent.com/121418437/232967127-11483a6d-5f3c-43ec-8806-306dc7db8d67.png)
 
 # Moderate Negative Skew
 
+![DS F20](https://user-images.githubusercontent.com/121418437/232967157-a6f81c66-2363-4bdc-9c64-4bc0008b055d.png)
 
 # Quantile Transformation
 # Moderate Negative Skew
