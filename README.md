@@ -28,14 +28,15 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import scipy.stats as stats
 from sklearn.preprocessing import QuantileTransformer
+~~~
 
 # Reading CSV File
-
+~~~.py
 df=pd.read_csv("/content/drive/MyDrive/Colab Notebooks/Semester 3/19AI403 _Intro to DS/Exp_6/Data_to_Transform.csv")
 df
-
+~~~
 # Basic Process
-
+~~~.py
 df.head()
 
 df.info()
@@ -51,9 +52,9 @@ df.columns
 df.isnull().sum()
 
 df.duplicated()
-
+~~~
 # Before Transformation
-
+~~~.py
 sm.qqplot(df['Highly Positive Skew'],fit=True,line='45')
 plt.show()
 
@@ -65,9 +66,9 @@ plt.show()
 
 sm.qqplot(df['Moderate Negative Skew'],fit=True,line='45')
 plt.show()
-
+~~~
 # Log Transformation
-
+~~~.py
 df['Highly Positive Skew'] = np.log(df['Highly Positive Skew'])
 
 sm.qqplot(df['Highly Positive Skew'],fit=True,line='45')
@@ -78,8 +79,9 @@ df['Moderate Positive Skew'] = np.log(df['Moderate Positive Skew'])
 
 sm.qqplot(df['Moderate Positive Skew'],fit=True,line='45')
 plt.show()
-
+~~~
 # Reciprocal Transformation
+~~~.py
 df['Highly Positive Skew'] = 1/df['Highly Positive Skew']
 
 sm.qqplot(df['Highly Positive Skew'],fit=True,line='45')
@@ -91,9 +93,9 @@ df['Highly Positive Skew'] = df['Highly Positive Skew']**(1/1.2)
 
 sm.qqplot(df['Highly Positive Skew'],fit=True,line='45')
 plt.show()
-
+~~~
 # Power Transformation
-
+~~~.py
 df['Moderate Positive Skew_1'], parameters=stats.yeojohnson(df['Moderate Positive Skew'])
 
 sm.qqplot(df['Moderate Positive Skew_1'],fit=True,line='45')
@@ -107,9 +109,9 @@ df['ModerateNegativeSkew_2']=pd.DataFrame(transformer.fit_transform(df[['Moderat
 
 sm.qqplot(df['ModerateNegativeSkew_2'],fit=True,line='45')
 plt.show()
-
+~~~
 # Quantile Transformation
-
+~~~.py
 from sklearn.preprocessing import QuantileTransformer
 qt = QuantileTransformer(output_distribution = 'normal')
 
@@ -117,7 +119,7 @@ df['ModerateNegativeSkew_2'] = pd.DataFrame(qt.fit_transform(df[['Moderate Negat
 
 sm.qqplot(df['ModerateNegativeSkew_2'],fit=True,line='45')
 plt.show()
-
+~~~
 # OUTPUT:
 # Reading CSV File
 # df
